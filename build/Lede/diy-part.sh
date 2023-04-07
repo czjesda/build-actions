@@ -52,7 +52,7 @@ export Cancel_running="1"                    # 取消路由器每天跑分任务
 #git clone https://github.com/kenzok8/small-package package/small-package
 #src-git small8 https://github.com/kenzok8/small-package
 cat >>"${HOME_PATH}/feeds.conf.default" <<-EOF
-src-git small8 https://github.com/kenzok8/small-package.git;${PACKAGE_BRANCH}
+src-git small8 https://github.com/kenzok8/small-package
 EOF
 
 # 整理固件包时候,删除您不想要的固件或者文件,让它不需要上传到Actions空间(根据编译机型变化,自行调整删除名称)
